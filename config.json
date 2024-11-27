@@ -1,0 +1,9 @@
+{
+    "smartsheetAccessToken": "cJFhEEdONpiBdIS4LPjVhN0VTbrIp2ASBTyCn",
+    "logLevel": "info",
+
+    "sourceSheetId": 2840383524392836,
+    "destinationSheetId": 2903246813220740,
+    "callbackUrl": "https://da5f-2401-4900-8838-1cee-3072-b87b-e184-35cc.ngrok-free.app",
+    "webhookName": "webhook for smartsheet"
+}
