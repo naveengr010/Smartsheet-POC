@@ -209,8 +209,8 @@ async function updateDestinationSheet(destinationSheetId, row, column, cellValue
         initializeSmartsheetClient(config.smartsheetAccessToken, config.logLevel);
         await checkSheetAccessibility(config.sourceSheetId);  // Sanity check to ensure access to the source sheet
 
-        app.listen(3000, () => {
-            console.log("Server listening on port 3000");
+        app.listen(config.port, () => {
+            console.log("Server listening on port: ",config.port);
         });
 
         // Set up webhook
